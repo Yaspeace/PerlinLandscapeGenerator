@@ -1,0 +1,388 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8136 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/LandscapeGenerator
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55823
+Successfully changed project path to: D:/UnityProjects/LandscapeGenerator
+D:/UnityProjects/LandscapeGenerator
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.31f1 (6b54b7616050)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/LandscapeGenerator/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001771 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (810ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003027 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1936ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1550ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (452ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1535 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 4.135500 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.088700 ms MarkObjects: 3.439600 ms  DeleteObjects: 0.444300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ава генератора.png
+  artifactKey: Guid(2ac5f9932de357647bd66fa6af744820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ава генератора.png using Guid(2ac5f9932de357647bd66fa6af744820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70e295949837172606bb4683955939a') in 0.400251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.085449 seconds.
+  path: Assets/Map/HexMap/Textures/dirt.png
+  artifactKey: Guid(57741bdafdc8e48468a1c365eb9f2de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/dirt.png using Guid(57741bdafdc8e48468a1c365eb9f2de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6263aa48bbd03a31d24e8f7ecf4552f5') in 0.042244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Map/HexMap/Textures/Forest_Dirt.png
+  artifactKey: Guid(7b7a0113d9023064c8e5abbf3154b41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Forest_Dirt.png using Guid(7b7a0113d9023064c8e5abbf3154b41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8290a5ee93cc508e630302a052ba13c') in 0.076154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Map/HexMap/Materials/noise.png
+  artifactKey: Guid(49f50eace9428524c96af52d6e744914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Materials/noise.png using Guid(49f50eace9428524c96af52d6e744914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62f88142a8171439d013cc203dfb490') in 0.019590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Map/MapResources/Prefabs/Forest/Ekfs_bush_map.png
+  artifactKey: Guid(78b235342fd899d4eb07ec300ff724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapResources/Prefabs/Forest/Ekfs_bush_map.png using Guid(78b235342fd899d4eb07ec300ff724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2591a8320f3e79259928ffe672c60ce') in 0.020327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.569322 seconds.
+  path: Assets/Map/HexMap/Textures/Rock_1.png
+  artifactKey: Guid(b01678990273b5141bc8b7652fcae825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Rock_1.png using Guid(b01678990273b5141bc8b7652fcae825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77353012c078477d7a022201e6060206') in 0.077654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Map/HexMap/Textures/Sand_1.png
+  artifactKey: Guid(85824506c604d1f48aedf820b8a358b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Sand_1.png using Guid(85824506c604d1f48aedf820b8a358b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f00fea33a3cd675d3291f5fa7780dfb') in 0.057744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135855 seconds.
+  path: Assets/Map/HexMap/Textures/Sand_2.png
+  artifactKey: Guid(54c32f9bf16a7924cacd9cc7545932f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Sand_2.png using Guid(54c32f9bf16a7924cacd9cc7545932f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facdb31bcd8a2333e8f55fdbeffb7365') in 0.044230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Map/HexMap/Textures/Sand_3.png
+  artifactKey: Guid(b745ad91f51a53b4c807e7fc83709218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Sand_3.png using Guid(b745ad91f51a53b4c807e7fc83709218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7b30773da14b4f70b80a43e582837c') in 0.070636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Map/HexMap/Textures/Sand_4.png
+  artifactKey: Guid(be269db339b910949b9f4dee69ea1e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Sand_4.png using Guid(be269db339b910949b9f4dee69ea1e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7e54a657c8b49e0b284fb91462f21e') in 0.058338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094829 seconds.
+  path: Assets/Map/HexMap/Textures/Sand_5.png
+  artifactKey: Guid(b78d5c8e44353f749b0d1e6ec20243c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Sand_5.png using Guid(b78d5c8e44353f749b0d1e6ec20243c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f8b7cb1e827aeed86ffbc980235038') in 0.024492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Map/MapResources/Prefabs/Grass/T_Bush_temp_climate_1.png
+  artifactKey: Guid(4a6066bcd233f1e4ab258a3ae0ba6e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapResources/Prefabs/Grass/T_Bush_temp_climate_1.png using Guid(4a6066bcd233f1e4ab258a3ae0ba6e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c5eda5b990c35cc2be09eb153be8d4') in 0.016389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038754 seconds.
+  path: Assets/Map/MapResources/Prefabs/Grass/T_Bush_temp_climate_2.png
+  artifactKey: Guid(8eda405e0b52b70459d8f81a6c85422c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapResources/Prefabs/Grass/T_Bush_temp_climate_2.png using Guid(8eda405e0b52b70459d8f81a6c85422c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243b1995525344a96579a06fd558214c') in 0.015696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Map/MapResources/Prefabs/Grass/T_Bush_temp_climate_3.png
+  artifactKey: Guid(638513e54faf7a34c89a925417ebcec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapResources/Prefabs/Grass/T_Bush_temp_climate_3.png using Guid(638513e54faf7a34c89a925417ebcec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4967f3870d6bd29d5d82fb648da0f6') in 0.053122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Map/MapResources/Prefabs/Desert/Materials/T_Desert_plants.png
+  artifactKey: Guid(2aca26a3e11ba1349b884b9f2b2bb60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapResources/Prefabs/Desert/Materials/T_Desert_plants.png using Guid(2aca26a3e11ba1349b884b9f2b2bb60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610f926427c133555625a2f004c60615') in 0.034676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Map/MapResources/Prefabs/Tropic/T_Tree_tropical.png
+  artifactKey: Guid(00237863a56f12347aab23942b1cbcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapResources/Prefabs/Tropic/T_Tree_tropical.png using Guid(00237863a56f12347aab23942b1cbcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a0940682c34d087b51a7cc2a7d06fd') in 0.019076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.196179 seconds.
+  path: Assets/Map/MapResources/Prefabs/Tropic Grass/T_Tree_tropical.png
+  artifactKey: Guid(342ad6a96dedfad4aa47fcc398e4ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapResources/Prefabs/Tropic Grass/T_Tree_tropical.png using Guid(342ad6a96dedfad4aa47fcc398e4ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0ab43acba1fb2d4386623be468abcc') in 0.023863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Map/MapResources/Prefabs/Winter Grass/T_Tree_winter.png
+  artifactKey: Guid(fa716c8d9b3a60d4bbff3ad2812a0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapResources/Prefabs/Winter Grass/T_Tree_winter.png using Guid(fa716c8d9b3a60d4bbff3ad2812a0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3046eb76ab6aa19b9698e3a958331d0b') in 0.021648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Map/MapResources/Prefabs/Winter/T_Tree_winter.png
+  artifactKey: Guid(4bf157320c82d0f4b9e9f6c7ba4a6c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapResources/Prefabs/Winter/T_Tree_winter.png using Guid(4bf157320c82d0f4b9e9f6c7ba4a6c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adcc68bd3b28c6ad3e6298f166382db') in 0.010752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024463 seconds.
+  path: Assets/Map/HexMap/Textures/Taiga_1.png
+  artifactKey: Guid(5d39f021272618f48a37d5e4e8c37213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Taiga_1.png using Guid(5d39f021272618f48a37d5e4e8c37213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4f7c3e25ffde8af0336b8bae048202') in 0.057069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Map/HexMap/Textures/Taiga_3.png
+  artifactKey: Guid(1d97b82c58c3a064ab873bf7573ce08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Taiga_3.png using Guid(1d97b82c58c3a064ab873bf7573ce08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce573843d59f9fadcc7c06006a622a5') in 0.062385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Map/HexMap/Textures/Terrain_1.png
+  artifactKey: Guid(f140ac565acafb543a62c936e514fc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Terrain_1.png using Guid(f140ac565acafb543a62c936e514fc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c4aa7f9e5e955183cd27ea2ee59a38') in 0.087602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Map/HexMap/Textures/Terrain_2.png
+  artifactKey: Guid(ad8e9cdb4e904a14eaa681d7850330d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Terrain_2.png using Guid(ad8e9cdb4e904a14eaa681d7850330d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91edaf5825a395c3527ed8ec57214c31') in 0.024636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Map/HexMap/Textures/Terrain_3.png
+  artifactKey: Guid(ddb9d4e711076a244bb88987ec07c5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Terrain_3.png using Guid(ddb9d4e711076a244bb88987ec07c5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03ea48b1da5e598e94ae829ac508769') in 0.037933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Map/HexMap/Textures/Tropic_3.png
+  artifactKey: Guid(8d16d50498e190e4b802ee0018c6ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Tropic_3.png using Guid(8d16d50498e190e4b802ee0018c6ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6ae0ca29a85e892a4cfdf28faab188') in 0.025091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Map/HexMap/Textures/Tropic_2.png
+  artifactKey: Guid(74b37895d02a58d44a146e4e2118f168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Tropic_2.png using Guid(74b37895d02a58d44a146e4e2118f168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392766084221a215ba2ba36c81ec042a') in 0.028110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Map/HexMap/Textures/Tropic_Dirt.png
+  artifactKey: Guid(a20f84108702374428b81497b54402d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Tropic_Dirt.png using Guid(a20f84108702374428b81497b54402d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea162ac807eebc3e798db22f428346c') in 0.061215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Map/HexMap/Textures/Tropic_5.png
+  artifactKey: Guid(391c1fa85b80415498aef3b4147ea51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Tropic_5.png using Guid(391c1fa85b80415498aef3b4147ea51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff91c06a04d53f0b1d500c9f14ad7b2') in 0.051267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Map/HexMap/Textures/Tropic_4.png
+  artifactKey: Guid(3aff2d55c6473314bb071518d0bfb77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Tropic_4.png using Guid(3aff2d55c6473314bb071518d0bfb77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85da1646cbc2b3c528b021c2260098d') in 0.058530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Map/HexMap/Textures/Winter_Rock (2).png
+  artifactKey: Guid(ef283ff2b22dc0f4da78dcc0ef3e19ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Winter_Rock (2).png using Guid(ef283ff2b22dc0f4da78dcc0ef3e19ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d7783564537baf259ee00a73cdc931') in 0.071288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Map/HexMap/Textures/Winter_5.png
+  artifactKey: Guid(0edb1c0414cc80f46a4c72ef14e1b100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Winter_5.png using Guid(0edb1c0414cc80f46a4c72ef14e1b100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dc3145d036837efcd4ddc170880205') in 0.023959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Map/HexMap/Textures/Winter_3.png
+  artifactKey: Guid(cf10a9a402874bc4cb118c3d2ae6c3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Winter_3.png using Guid(cf10a9a402874bc4cb118c3d2ae6c3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77419d5f38ed0af18968b704fae0e60d') in 0.044691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Map/HexMap/Textures/Winter_4.png
+  artifactKey: Guid(20f661c38aba4654a9c44fdd4bd2aaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Winter_4.png using Guid(20f661c38aba4654a9c44fdd4bd2aaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52db43e0c829c520dded078efcf5c456') in 0.112865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Map/HexMap/Textures/Taiga_4.png
+  artifactKey: Guid(2b1172b519f3af94b9c9c59e4877c6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Taiga_4.png using Guid(2b1172b519f3af94b9c9c59e4877c6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c21502a0559ec892a7d725cb55493ba') in 0.057665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Map/HexMap/Textures/Winter_1.png
+  artifactKey: Guid(f330e575ac726034eb70613c74821925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Winter_1.png using Guid(f330e575ac726034eb70613c74821925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e06ee2a46a68648dd0f570f6358923f') in 0.048214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Map/HexMap/Textures/Taiga_2.png
+  artifactKey: Guid(864430a4f90e99f4fbd9d41240bb98e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Taiga_2.png using Guid(864430a4f90e99f4fbd9d41240bb98e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332ea9b2c6445fa03181544e16319967') in 0.055951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Map/HexMap/Textures/Winter_2.png
+  artifactKey: Guid(7be716eff1f5b084dba3b00c815bb2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Winter_2.png using Guid(7be716eff1f5b084dba3b00c815bb2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbb27aaddd9d17b483041beb6af3a9f') in 0.058379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Map/HexMap/Textures/Taiga_5.png
+  artifactKey: Guid(24f8fe3ba3e706240afc7c4b21ebc000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Taiga_5.png using Guid(24f8fe3ba3e706240afc7c4b21ebc000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ba95671882ffab6695a934115ac4a3') in 0.085502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Map/HexMap/Textures/Tropic_1.png
+  artifactKey: Guid(368d0197023dbcf49a850cb67a4a52a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/HexMap/Textures/Tropic_1.png using Guid(368d0197023dbcf49a850cb67a4a52a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4e529561358c0559fda3fda1421c6f') in 0.060103 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.9 MB.
+System memory in use after: 42.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 4.141700 ms (FindLiveObjects: 0.199700 ms CreateObjectMapping: 0.087700 ms MarkObjects: 3.492000 ms  DeleteObjects: 0.360800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

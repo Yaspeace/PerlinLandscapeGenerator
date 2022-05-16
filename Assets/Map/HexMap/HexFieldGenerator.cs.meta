@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 1226246e1df09d545b10a0579f53146c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - weedPrefab: {fileID: 6703389466325577855, guid: 4508d3f3a3869a3469caa48dfc9f23da, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
